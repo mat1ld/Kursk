@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой город — Курск</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        /* Цветовая схема */
+        body {
+            background-color: #ffffff; 
+            color: #333333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #5e70ac;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+         
+        header {
+            background-color: #5e70ac;
+            color: white;
+            padding: 20px 0; 
+            text-align: center;
+            width: 100%; 
+            position: relative;
+            top: 0;
+            left: 0;
+        } 
+
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Навигационное меню */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Контейнер с изображением */
+        .position-relative {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .position-relative img {
+            width: 100%;
+            height: auto;
+            filter: brightness(0.7);
+        }
+
+        .overlay {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        /* Основной контент */
+        .content {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #5e70ac; /* Цвет фона для нижнего колонтитула */
+            color: white;  
+            width: 100%;
+            position: relative;
+            bottom: 0;
+            left: 0;
+        } 
+    </style>
+</head>
+<body>
+<div id="app">
+    <header>
+        <h1>Добро пожаловать в Курск!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="info.html">Информация о городе</a></li>
+                <li><a href="history.html">Исторические события</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="position-relative">
+            <img src="images/your-image.jpg" alt="Курск" class="img-fluid">
+            <div class="overlay">Добро пожаловать в Курск!</div>
+        </div>
+
+        <div class="content">
+            <p>Курск — город областного значения в России, административный центр Курской области. Город расположен в 519 км к югу от Москвы и является важным культурным, промышленным и транспортным центром региона.</p>
+
+            <p>Курск имеет богатую историю, начиная с VIII века, когда на месте нынешнего города находился крупный населённый пункт. В Средние века Курск был столицей Курского княжества, а в XIX веке стал важным индустриальным и культурным центром.</p>
+
+            <p>Курск знаменит своей ролью в Великой Отечественной войне, а также культурными и образовательными учреждениями. Город — это центр машиностроения, химической и пищевой промышленности, а также важный транспортный узел центральной России.</p>
+            <p>Сегодня Курск — это современный город с населением более 448 тысяч человек, развивающийся в сферах науки, образования, инфраструктуры и культуры. В Курске активно строятся новые жилые и коммерческие объекты, развиваются предприятия и социальная сфера.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Город Курск</p>
+    </footer>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

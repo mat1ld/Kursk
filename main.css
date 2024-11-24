@@ -1,0 +1,72 @@
+/* Основные стили */
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5e70ac;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5e70ac;
+    color: white;
+    width: 100%;
+}
+/*
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #5e70ac;
+    color: white;
+    width: 100%; 
+    position: relative; 
+    margin-top: 20px; 
+} */
+.container {
+    margin-top: 20px;
+}
+
+/* Стили для формы */
+.form-label {
+    font-weight: bold;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 10px;
+}
